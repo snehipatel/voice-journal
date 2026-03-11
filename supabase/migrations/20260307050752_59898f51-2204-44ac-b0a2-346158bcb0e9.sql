@@ -1,0 +1,1 @@
+ALTER TABLE public.privacy_settings ADD COLUMN email_notifications boolean NOT NULL DEFAULT true;

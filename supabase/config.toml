@@ -1,0 +1,7 @@
+project_id = "chtvzlyubavuwhwfqexk"
+
+[functions.send-encouragement-email]
+verify_jwt = false
+
+[functions.create-admin-user]
+verify_jwt = false
