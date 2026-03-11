@@ -118,16 +118,16 @@ export const SakhiCompanion = ({ streak, todayLogged, missedRecently }: SakhiCom
 
       <div className="flex flex-col sm:flex-row items-center gap-4 relative z-10">
         {/* Video Container */}
-        <div className="w-full sm:w-96 h-52 sm:h-56 rounded-xl overflow-hidden relative bg-gradient-to-b from-primary/10 to-accent/5 flex items-center justify-center">
+        <div className="w-full sm:w-96 h-64 sm:h-72 rounded-xl overflow-hidden relative bg-gradient-to-b from-primary/10 to-accent/5 flex items-center justify-center">
           <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover rounded-xl"
+        ref={videoRef}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-full object-cover rounded-xl"
           >
-            <source src="/sakhi/Sakhi.mp4" type="video/mp4" />
+            <source src="public\sakhi\Sakhi.mp4" type="video/mp4" />
           </video>
         </div>
 

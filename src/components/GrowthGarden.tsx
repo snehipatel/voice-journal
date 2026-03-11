@@ -37,7 +37,7 @@ export const GrowthGarden = ({ streak, missedRecently, streakSaverActive, streak
       </div>
 
       {/* Garden scene */}  
-      <div className="relative w-full max-h-48 aspect-[784/470] overflow-hidden rounded-none">
+      <div className="relative w-full h-[260px] overflow-hidden rounded-xl">
 
         {/* Sky */}
         <div className="absolute inset-0 bg-gradient-to-b from-[hsl(200,60%,80%)] to-[hsl(200,40%,92%)]" />
