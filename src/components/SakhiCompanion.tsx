@@ -127,7 +127,7 @@ export const SakhiCompanion = ({ streak, todayLogged, missedRecently }: SakhiCom
             playsInline
             className="w-full h-full object-cover rounded-xl"
           >
-            <source src="public\sakhi\Sakhi.mp4" type="video/mp4" />
+            <source src="/sakhi/Sakhi.mp4" type="video/mp4" />
           </video>
         </div>
 
